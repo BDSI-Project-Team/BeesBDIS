@@ -1,0 +1,66 @@
+.hello-page-container{
+    background-image: url('../../../public/back-weed.png');;
+    background-color: aliceblue;
+    width: 100%;
+    height: 100%;
+    padding:0;
+    margin:0;
+    position:fixed;
+    background-size: cover;
+    background-position: bottom center;
+    text-align: center;
+}
+.hello-page-text{
+    font-family: Georgia, serif;
+    font-weight: 100;
+    font-size:x-large;
+    color: white;
+    letter-spacing: 2px;
+    font-style: italic;
+    padding-top: 8%;
+}
+.hello-page-button{
+    box-shadow:inset 0px 0px 49px 0px #72c42b;
+	background:linear-gradient(to bottom, #258646 5%, #b1de49 100%);
+	background-color:#a8f000;
+	border-radius:18px;
+	border:2px solid #74b807;
+	display:inline-block;
+	cursor:pointer;
+	color:#f5f5f5;
+	font-family:Verdana;
+	font-size:22px;
+	font-weight:bold;
+	font-style:italic;
+	padding:14px 33px;
+	text-decoration:none;
+	text-shadow:0px 1px 23px #7db02c;
+}
+.hello-page-button:hover{
+    background:linear-gradient(to bottom, #b1de49 5%, #258646 100%);
+	background-color:#1c7020;
+}
+.hello-page-button:active{
+    position:relative;
+	top:1px;
+}
+.hello-page-bottom-text{
+    position: fixed;
+    bottom: 0;
+    color: white;
+    margin-right: 10%;
+    text-align: center;    
+    font-family: Georgia, serif;
+    font-weight: 100;
+    font-size:large;
+    color: white;
+    letter-spacing: -0.5px;
+    font-style: italic;
+    padding-top: 6%;
+}
+.hello-page-bottom-footer{
+    text-align: center;
+}
+.bottom-text{
+    margin-top: 0%;
+}
