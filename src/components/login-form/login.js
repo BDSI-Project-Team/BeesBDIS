@@ -20,7 +20,6 @@ const Login = () => {
   }
   return (
     <div className="login-page-container">
-      <img src="Kostil" alt=""></img>
       <form className="login-container">
         <button onClick={backButtonClick} className="header-button">Back</button>
         <p className="login-text">User Name</p>
@@ -29,12 +28,6 @@ const Login = () => {
         <input type="password" id = 'password'></input>
         <button className = 'submit-button' onClick={submitButtonClick} placeholder="Password">Submit</button>
       </form>
-      <h1>.</h1>
-      <h1>.</h1>
-      <h1>.</h1>
-      <h1>.</h1>
-      <h1>.</h1>
-      <p>/</p>
     </div>
   );
 };
